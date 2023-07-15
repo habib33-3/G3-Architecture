@@ -6,6 +6,7 @@
   font-family: "Work Sans", sans-serif;
   text-decoration: none;
 }
+
 .text-light-grey {
   color: #727272;
 }
@@ -19,6 +20,13 @@
   border: 0;
 }
 
+.section-title {
+  color: var(--dark-01, #131313);
+  font-size: 3rem;
+  /* font-style: normal; */
+  font-weight: 700;
+}
+
 /* nav Section Start */
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -28,13 +36,6 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-}
-
-.nav-title {
-  color: var(--dark-01, #131313);
-  font-size: 3rem;
-  /* font-style: normal; */
-  font-weight: 700;
 }
 
 nav > ul {
@@ -110,6 +111,33 @@ main {
   color: #ff900e;
   font-weight: 700;
 }
+
+/* Facts Section */
+
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.facts-card-container .card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 40px 30px;
+}
+
+.facts-card-container .card-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.facts-card-container .card-stats {
+  font-size: 2.8rem;
+  color: #424242;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* Responsive Style */
 
 /* Mobile Device */
